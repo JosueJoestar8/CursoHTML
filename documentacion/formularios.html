@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form> <!-- Creacion del formulario -->
+      <fieldset> <!--Crea un recuadro que agrupa lo que tenga dentro-->
+        <legend>Datos personales</legend> <!-- titulo del formulario-->
+        <label>Edad</label> <!--Entrega una etiqueta al siguiente input-->
+        <input type="number" placeholder="Introduce tu edad..."> <!--Placeholder es la frase que estara en el campo de datos hasta que escribamos algo mas-->
+        <br />
+        <label>Nombre</label>
+        <input type="text"> <!--Entrada de datos, puede ser de varios tipos-->
+        <br />
+        <label>Contraseña</label>
+        <input type="password"> <!--En el tipo password se ocultan los caracteres-->
+        <br />
+        <input type="submit" value="enviar"/> <!-- Boton para enviar el formulario-->
+        <textarea></textarea> <!--area de texto para escribir lo que quiera el usuario, es redimensionable-->
+        <button>Aceptar</button> <!--Boton personalizado-->
+        <select> <!-- Cuadro de opciones-->
+          <option value="1">Opcion 1</option> <!-- Opciones desplegables-->
+          <option value="2">Opcion 2</option> <!--valor es el valor que se guardara-->
+          <option value="3">Opcion 3</option> <!--Y "opcion" es el texto que se mostrara en el desplegable-->
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>
